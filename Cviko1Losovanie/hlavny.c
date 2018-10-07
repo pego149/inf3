@@ -17,6 +17,7 @@ int main(int argc, char* argv[]) {
 			vstup1 = atoi(argv[2]);
 			vstup2 = atoi(argv[1]);
 		}
+		printf("Celkovy pocet zrebov: %u\nPocet losovanych zrebov: %u", vstup1, vstup2);
 		pocetZrebov = vstup1;
 		tah(vstup2);
 		getchar();
