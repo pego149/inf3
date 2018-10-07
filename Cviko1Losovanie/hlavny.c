@@ -8,7 +8,7 @@
 
 
 int main(int argc, char* argv[]) {
-	if (atoi(argv[1])!=0 && atoi(argv[2]) != 0)
+	if (sizeof(argv)==4 && atoi(argv[1])>0 && atoi(argv[2])>0)
 	{
 		int vstup1 = atoi(argv[1]);
 		int vstup2 = atoi(argv[2]);
