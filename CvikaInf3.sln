@@ -7,7 +7,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cviko00", "Cviko00\Cviko00.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cviko00a", "Cviko00a\Cviko00a.vcxproj", "{B0D35368-6290-426F-A745-EEDD20C33176}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cviko1Losovanie", "Cviko1Losovanie\Cviko1Losovanie.vcxproj", "{DAE836C4-701F-4EB7-A01E-1A41CE8BF4E4}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cviko01Losovanie", "Cviko1Losovanie\Cviko1Losovanie.vcxproj", "{DAE836C4-701F-4EB7-A01E-1A41CE8BF4E4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cviko02Triedenie", "Cviko02Triedenie\Cviko02Triedenie.vcxproj", "{648F4B33-7CDB-424B-B0FD-CB0C19D2F417}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,14 @@ Global
 		{DAE836C4-701F-4EB7-A01E-1A41CE8BF4E4}.Release|x64.Build.0 = Release|x64
 		{DAE836C4-701F-4EB7-A01E-1A41CE8BF4E4}.Release|x86.ActiveCfg = Release|Win32
 		{DAE836C4-701F-4EB7-A01E-1A41CE8BF4E4}.Release|x86.Build.0 = Release|Win32
+		{648F4B33-7CDB-424B-B0FD-CB0C19D2F417}.Debug|x64.ActiveCfg = Debug|x64
+		{648F4B33-7CDB-424B-B0FD-CB0C19D2F417}.Debug|x64.Build.0 = Debug|x64
+		{648F4B33-7CDB-424B-B0FD-CB0C19D2F417}.Debug|x86.ActiveCfg = Debug|Win32
+		{648F4B33-7CDB-424B-B0FD-CB0C19D2F417}.Debug|x86.Build.0 = Debug|Win32
+		{648F4B33-7CDB-424B-B0FD-CB0C19D2F417}.Release|x64.ActiveCfg = Release|x64
+		{648F4B33-7CDB-424B-B0FD-CB0C19D2F417}.Release|x64.Build.0 = Release|x64
+		{648F4B33-7CDB-424B-B0FD-CB0C19D2F417}.Release|x86.ActiveCfg = Release|Win32
+		{648F4B33-7CDB-424B-B0FD-CB0C19D2F417}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
