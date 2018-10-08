@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{648F4B33-7CDB-424B-B0FD-CB0C19D2F417}</ProjectGuid>
+    <ProjectGuid>{E95DA317-76D9-43DE-84C5-91945D0376EA}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Cviko02Triedenie</RootNamespace>
+    <RootNamespace>Cv03Triedenievkladanim</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,6 +139,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="hlavny.cpp" />
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="uzol.cpp" />
+    <ClCompile Include="vstup.cpp" />
+    <ClCompile Include="vystup.cpp" />
+    <ClCompile Include="zoznam.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="test.h" />
+    <ClInclude Include="uzol.h" />
+    <ClInclude Include="vstup.h" />
+    <ClInclude Include="vystup.h" />
+    <ClInclude Include="zoznam.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
