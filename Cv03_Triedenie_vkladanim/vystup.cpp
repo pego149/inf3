@@ -23,6 +23,10 @@ void Vystup::zapisCislo(int cislo)
 {
 	if (fhandle != nullptr)
 	{
-		fprintf(fhandle, "%d\n", cislo);
+		if (cislo % 2 == 0)
+		{
+			fprintf(fhandle, "%d\n", cislo);
+			printf("%d\n", cislo);
+		}
 	}
 }
