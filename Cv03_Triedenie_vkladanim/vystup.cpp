@@ -1,3 +1,4 @@
+#include "..\Cv04_Sifrovanie\vystup.h"
 #include "vystup.h"
 
 
@@ -9,6 +10,11 @@ Vystup::Vystup(const char *menoSuboru)
 		fhandle = fopen(menoSuboru, "wt");
 	}
 }
+
+Vystup::Vystup(const Vystup & zdroj)
+{
+}
+
 
 
 Vystup::~Vystup()

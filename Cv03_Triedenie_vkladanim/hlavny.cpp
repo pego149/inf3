@@ -1,4 +1,3 @@
-
 #include "zoznam.h"
 
 int main() {
