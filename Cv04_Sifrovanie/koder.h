@@ -5,6 +5,7 @@ class Koder
 private:
 	unsigned char aKodTabulka[DLZKA_TABULKY];
 	void zakodujTabulku(const unsigned char *heslo);
+	void dekodujTabulku();
 	unsigned DajNasadu(const unsigned char *heslo);
 	void vymen(unsigned char &a, unsigned char &b);
 	void vymen(unsigned char *a, unsigned char *b);

@@ -30,6 +30,9 @@
     <ClCompile Include="koder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="sifrator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="vstup.h">
@@ -45,6 +48,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="koder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sifrator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

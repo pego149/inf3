@@ -142,6 +142,7 @@
     <ClCompile Include="funkcie.cpp" />
     <ClCompile Include="hlavny.cpp" />
     <ClCompile Include="koder.cpp" />
+    <ClCompile Include="sifrator.cpp" />
     <ClCompile Include="vstup.cpp" />
     <ClCompile Include="vystup.cpp" />
   </ItemGroup>
@@ -149,6 +150,7 @@
     <ClInclude Include="funkcie.h" />
     <ClInclude Include="heslo.h" />
     <ClInclude Include="koder.h" />
+    <ClInclude Include="sifrator.h" />
     <ClInclude Include="vstup.h" />
     <ClInclude Include="vystup.h" />
   </ItemGroup>
