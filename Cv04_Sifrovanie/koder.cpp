@@ -25,7 +25,7 @@ void Koder::dekodujTabulku()
 	unsigned char pomocnaTabulka[DLZKA_TABULKY];
 	for (int i = 0; i < DLZKA_TABULKY; i++)
 	{
-		pomocnaTabulka[aKodTabulka[i]] = pomocnaTabulka[i];
+		pomocnaTabulka[aKodTabulka[i]] = i;
 	}
 	memmove(aKodTabulka, pomocnaTabulka, DLZKA_TABULKY * sizeof(unsigned char));
 }
