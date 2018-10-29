@@ -112,7 +112,7 @@ unsigned char * Koder::dekoduj(const unsigned char * heslo, const unsigned char 
 		{
 			int k = 0;
 			char buf[4]{};
-			for (int i = 0; i < dlzka; i++)
+			for (int i = 0; i < dlzka; i+=3)
 			{
 				memmove(buf, &sifrtext[i], 3);
 				desifrovanyText[k++] = aKodTabulka[atoi(buf)];

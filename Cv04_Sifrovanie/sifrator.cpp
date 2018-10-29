@@ -37,6 +37,15 @@ void Sifrator::zmaz()
 
 void Sifrator::vypisHelp()
 {
+	Vystup konzola(nullptr);
+	konzola.zapis((unsigned char *)"sifrator CINNOST VST_SUBOR [TYP_VYSTUPU VYST_SUBOR]\n"
+		"\tCINNOST:\n"
+		"\t\ts...sifrovanir\n"
+		"\t\td...desifrovanie\n"
+		"\t\th...help\n"
+		"\tTYP_VYSTUPU:\n"
+		"\t\ts...subor\n"
+		"\t\tc...konzola");
 }
 
 Sifrator::Sifrator(char cinnost, const char * heslo, const char * vstupSubor, bool konzola, const char * vystupSubor)

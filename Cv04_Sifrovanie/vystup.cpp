@@ -2,20 +2,27 @@
 #include <cstring>
 #include <cstdio>
 #include <iostream>
+#include "funkcie.h"
 
 using namespace std;
 
 Vystup::Vystup(const char *menoSuboru)
 {
+	aMenoSuboru = kopirujRetazec(menoSuboru);
 }
 
 Vystup::Vystup(const Vystup &zdroj)
 {
+	aMenoSuboru = kopirujRetazec(zdroj.aMenoSuboru);
 }
 
 Vystup & Vystup::operator=(const Vystup & zdroj)
 {
-	// TODO: insert return statement here
+	if (this != &zdroj)
+	{
+		delete[] aMenoSuboru;
+		aMenoSuboru = kopirujRetazec(zdroj.aMenoSuboru);
+	}
 	return *this;
 }
 
@@ -27,12 +34,15 @@ void Vystup::zapis(unsigned char * text)
 {
 	if (text && *text)
 	{
-		int dlzka = strlen((char *)text);
-		FILE *f = fopen(aMenoSuboru, "wb");
-		if (f)
+		if (aMenoSuboru && *aMenoSuboru)
 		{
-			fwrite(text, dlzka, 1, f);
-			fclose(f);
+			int dlzka = strlen((char *)text);
+			FILE *f = fopen(aMenoSuboru, "wb");
+			if (f)
+			{
+				fwrite(text, dlzka, 1, f);
+				fclose(f);
+			}
 		}
 		else
 		{
