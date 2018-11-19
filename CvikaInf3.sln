@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cv5_Pole", "Cv5_Pole\Cv5_Po
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cv07_Binarne_cislo", "Cv07_Binarne_cislo\Cv07_Binarne_cislo.vcxproj", "{CB9AB0A0-4E72-4A08-8C90-3E4A90863108}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cv8_Sklad", "Cv8_Sklad\Cv8_Sklad.vcxproj", "{D6BA2D0E-0327-4E5E-A603-C275B7D4A501}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{CB9AB0A0-4E72-4A08-8C90-3E4A90863108}.Release|x64.Build.0 = Release|x64
 		{CB9AB0A0-4E72-4A08-8C90-3E4A90863108}.Release|x86.ActiveCfg = Release|Win32
 		{CB9AB0A0-4E72-4A08-8C90-3E4A90863108}.Release|x86.Build.0 = Release|Win32
+		{D6BA2D0E-0327-4E5E-A603-C275B7D4A501}.Debug|x64.ActiveCfg = Debug|x64
+		{D6BA2D0E-0327-4E5E-A603-C275B7D4A501}.Debug|x64.Build.0 = Debug|x64
+		{D6BA2D0E-0327-4E5E-A603-C275B7D4A501}.Debug|x86.ActiveCfg = Debug|Win32
+		{D6BA2D0E-0327-4E5E-A603-C275B7D4A501}.Debug|x86.Build.0 = Debug|Win32
+		{D6BA2D0E-0327-4E5E-A603-C275B7D4A501}.Release|x64.ActiveCfg = Release|x64
+		{D6BA2D0E-0327-4E5E-A603-C275B7D4A501}.Release|x64.Build.0 = Release|x64
+		{D6BA2D0E-0327-4E5E-A603-C275B7D4A501}.Release|x86.ActiveCfg = Release|Win32
+		{D6BA2D0E-0327-4E5E-A603-C275B7D4A501}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
