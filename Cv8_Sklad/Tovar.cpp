@@ -49,6 +49,7 @@ char * kopirujRetazec(const char * zdrojRetazec)
 		int dlzka = strlen(zdrojRetazec);
 		ciel = new char[dlzka + 1];
 		strcpy(ciel, zdrojRetazec);
+		return ciel;
 	}
 	return nullptr;
 }

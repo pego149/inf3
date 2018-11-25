@@ -31,7 +31,18 @@ int porovnajCena(const void *op1, const void *op2)
 
 int porovnajPocet(const void *op1, const void *op2)
 {
-	return 0;
+	Tovar **ptrt1 = (Tovar **)op1;
+	Tovar **ptrt2 = (Tovar **)op2;
+	int ret = (*ptrt1)->getPocet() - (*ptrt2)->getPocet();
+	if (ret == 0)
+	{
+		ret = strcmp((*ptrt1)->getNazov(), (*ptrt2)->getNazov());
+		if (ret == 0)
+		{
+			ret = (*ptrt1)->getCena() - (*ptrt2)->getCena();
+		}
+	}
+	return ret;
 }
 
 Tovar * Sklad::realokuj()

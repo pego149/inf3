@@ -5,6 +5,7 @@ int main() {
 	sklad.pridaj("A", 10, 3);
 	sklad.pridaj("B", 100, 20);
 	sklad.pridaj("C", 10, 5);
+	sklad.pridaj("D", 20, 10);
 	sklad.zobrazPodlaNazov();
 	sklad.zobrazPodlaCena();
 	sklad.zobrazPodlaPocet();
