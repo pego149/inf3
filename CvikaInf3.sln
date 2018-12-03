@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StromLib", "StromLib\StromL
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StromApp", "StromApp\StromApp.vcxproj", "{CE6C78C8-171B-4582-8C53-FE61AAA27B8D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cv11_Obalovacia_trieda", "Cv11_Obalovacia_trieda\Cv11_Obalovacia_trieda.vcxproj", "{EA000EC8-8BB0-45B5-95E5-B6F9E6B1BDE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -133,6 +135,14 @@ Global
 		{CE6C78C8-171B-4582-8C53-FE61AAA27B8D}.Release|x64.Build.0 = Release|x64
 		{CE6C78C8-171B-4582-8C53-FE61AAA27B8D}.Release|x86.ActiveCfg = Release|Win32
 		{CE6C78C8-171B-4582-8C53-FE61AAA27B8D}.Release|x86.Build.0 = Release|Win32
+		{EA000EC8-8BB0-45B5-95E5-B6F9E6B1BDE7}.Debug|x64.ActiveCfg = Debug|x64
+		{EA000EC8-8BB0-45B5-95E5-B6F9E6B1BDE7}.Debug|x64.Build.0 = Debug|x64
+		{EA000EC8-8BB0-45B5-95E5-B6F9E6B1BDE7}.Debug|x86.ActiveCfg = Debug|Win32
+		{EA000EC8-8BB0-45B5-95E5-B6F9E6B1BDE7}.Debug|x86.Build.0 = Debug|Win32
+		{EA000EC8-8BB0-45B5-95E5-B6F9E6B1BDE7}.Release|x64.ActiveCfg = Release|x64
+		{EA000EC8-8BB0-45B5-95E5-B6F9E6B1BDE7}.Release|x64.Build.0 = Release|x64
+		{EA000EC8-8BB0-45B5-95E5-B6F9E6B1BDE7}.Release|x86.ActiveCfg = Release|Win32
+		{EA000EC8-8BB0-45B5-95E5-B6F9E6B1BDE7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
