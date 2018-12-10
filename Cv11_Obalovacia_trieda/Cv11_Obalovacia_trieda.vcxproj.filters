@@ -24,12 +24,27 @@
     <ClInclude Include="VynimkaIndex.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ILogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StreamLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CompositeLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="hlavny.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Klient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StreamLogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CompositeLogger.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

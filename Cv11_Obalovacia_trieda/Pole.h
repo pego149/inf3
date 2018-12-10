@@ -70,6 +70,10 @@ Pole<T>::Pole(int pDolnyIndex, unsigned int pRozsah, T initval)
 template<class T>
 inline T & Pole<T>::operator[](int index)
 {
+	if (!aData)
+	{
+		throw VynimkaIndex("Pole neexistuje", -1);
+	}
 	if (index<aDolnyIndex)
 	{
 		throw VynimkaDolnyIndex(aDolnyIndex);

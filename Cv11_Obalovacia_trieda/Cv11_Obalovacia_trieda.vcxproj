@@ -139,13 +139,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CompositeLogger.h" />
+    <ClInclude Include="ILogger.h" />
     <ClInclude Include="Klient.h" />
     <ClInclude Include="Pole.h" />
+    <ClInclude Include="StreamLogger.h" />
     <ClInclude Include="VynimkaIndex.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CompositeLogger.cpp" />
     <ClCompile Include="hlavny.cpp" />
     <ClCompile Include="Klient.cpp" />
+    <ClCompile Include="StreamLogger.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -22,7 +22,7 @@ public:
 	VynimkaDolnyIndex(int pindex)
 		:VynimkaIndex("Dolny index mimo hranic", pindex) 
 	{
-		cout << "Dolny index mimo hranic:" << pindex << endl;
+		//cout << "Dolny index mimo hranic:" << pindex << endl;
 	}
 };
 
@@ -34,6 +34,6 @@ public:
 		:VynimkaIndex("Horny index mimo hranic", pindex) 
 	
 	{
-		cout << "Horny index mimo hranic:" << pindex << endl;
+		//cout << "Horny index mimo hranic:" << pindex << endl;
 	}
 };
